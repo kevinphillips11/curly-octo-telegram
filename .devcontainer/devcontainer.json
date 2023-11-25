@@ -32,7 +32,8 @@
 		    "visibility": "public"
 		}
 	},
- "postCreateCommand": "/bin/bash ./.devcontainer/change_port_visibility.sh 9000 public",
+ 	
+	"postCreateCommand": "/bin/bash ./.devcontainer/change_port_visibility.sh 9000 public",
 	
 
 	// Use 'postCreateCommand' to run commands after the container is created.
