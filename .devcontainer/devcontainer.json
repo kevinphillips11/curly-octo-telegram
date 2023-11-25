@@ -32,7 +32,8 @@
 		    "visibility": "public"
 		}
 	},
- 	
+	"postCreateCommand": "/bin/bash ./.devcontainer/install_gh.sh",
+
 	"postCreateCommand": "/bin/bash ./.devcontainer/change_port_visibility.sh 9000 public",
 	
 
